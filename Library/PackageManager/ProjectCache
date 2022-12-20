@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637979167900000000
+      ticks: 638071419730000000
     m_Hash: 2691990484
   m_LockFileStatus:
     m_FilePath: /Users/ultimatedbz/Developer/Games/Rhythm World/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637979167920000000
+      ticks: 638071419750000000
     m_Hash: 1439670663
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -190,10 +190,12 @@ m_ResolvedPackages:
     - 4.1.0
     - 4.2.1
     - 4.3.0
+    - 4.4.1
     compatible:
     - 4.1.0
     - 4.2.1
     - 4.3.0
+    - 4.4.1
     verified: 4.1.0
   dependencies:
   - name: com.unity.ugui
@@ -350,7 +352,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Editor
-  type: 
+  type: asset
   description: The Version Control package gives you the ability to use either Collaborate
     or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic SCM for Unity
     (beta), a Plastic SCM subscription is required. Learn more about how you can
@@ -409,6 +411,8 @@ m_ResolvedPackages:
     - 1.17.0
     - 1.17.1
     - 1.17.2
+    - 1.17.6
+    - 1.17.7
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -421,6 +425,8 @@ m_ResolvedPackages:
     - 2.1.0-preview.6
     compatible:
     - 1.17.2
+    - 1.17.6
+    - 1.17.7
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -431,7 +437,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.17.2
+    verified: 1.17.7
   dependencies:
   - name: com.unity.services.core
     version: 1.0.1
@@ -465,7 +471,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637937432480000000
   documentationUrl: 
@@ -492,7 +498,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
@@ -531,9 +537,13 @@ m_ResolvedPackages:
     - 3.0.13
     - 3.0.14
     - 3.0.15
+    - 3.0.16
+    - 3.0.17
     compatible:
     - 3.0.15
-    verified: 3.0.15
+    - 3.0.16
+    - 3.0.17
+    verified: 3.0.17
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -548,7 +558,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637914298700000000
   documentationUrl: 
@@ -575,7 +585,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -602,9 +612,11 @@ m_ResolvedPackages:
     - 2.0.14
     - 2.0.15
     - 2.0.16
+    - 2.0.17
     compatible:
     - 2.0.16
-    verified: 2.0.16
+    - 2.0.17
+    verified: 2.0.17
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -625,7 +637,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637914298680000000
   documentationUrl: 
@@ -713,7 +725,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: "IMPORTANT UPGRADE NOTES:\n\nIf updating from Unity IAP (com.unity.purchasing
     + the Asset Store plugin) versions 2.x to version 3.x, complete the following
     actions in order to resolve compilation errors:\n 1. Move IAPProductCatalog.json
@@ -787,9 +799,15 @@ m_ResolvedPackages:
     - 4.3.0
     - 4.4.0
     - 4.4.1
+    - 4.5.0
+    - 4.5.1
+    - 4.5.2
     compatible:
     - 4.4.0
     - 4.4.1
+    - 4.5.0
+    - 4.5.1
+    - 4.5.2
     verified: 4.4.1
   dependencies:
   - name: com.unity.ugui
@@ -865,7 +883,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Unity Test Framework
-  type: 
+  type: asset
   description: Test framework for running Edit mode and Play mode tests in Unity.
   status: 4
   errors: []
@@ -905,12 +923,20 @@ m_ResolvedPackages:
     - 1.1.30
     - 1.1.31
     - 1.1.33
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
     - 2.0.1-exp.1
+    - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
     - 1.1.33
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
     - 2.0.1-exp.1
+    - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     verified: 1.1.33
@@ -938,7 +964,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637938212700000000
   documentationUrl: 
@@ -965,7 +991,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Text Rendering
-  type: 
+  type: asset
   description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
     replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -1073,12 +1099,14 @@ m_ResolvedPackages:
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
+    - 3.2.0-pre.4
     - 4.0.0-pre.1
     compatible:
     - 3.0.6
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
+    - 3.2.0-pre.4
     - 4.0.0-pre.1
     verified: 3.0.6
   dependencies:
@@ -1104,7 +1132,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637547111200000000
   documentationUrl: 
@@ -1131,7 +1159,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
   status: 4
@@ -1210,9 +1238,13 @@ m_ResolvedPackages:
     - 1.7.0-pre.2
     - 1.7.0
     - 1.7.1
+    - 1.7.2
+    - 1.8.0
     compatible:
     - 1.7.1
-    verified: 1.7.1
+    - 1.7.2
+    - 1.8.0
+    verified: 1.7.2
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0
@@ -1244,7 +1276,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637824211470000000
   documentationUrl: 
@@ -3229,7 +3261,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: 'This package defines common components used by multiple Game Service
     packages.
 
@@ -3254,9 +3286,15 @@ m_ResolvedPackages:
     - 1.4.1
     - 1.4.2
     - 1.4.3
+    - 1.5.2
+    - 1.6.0
+    - 1.7.0
     compatible:
     - 1.4.2
     - 1.4.3
+    - 1.5.2
+    - 1.6.0
+    - 1.7.0
     verified: 1.4.3
   dependencies:
   - name: com.unity.modules.unitywebrequest
@@ -3280,7 +3318,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637919618520000000
   documentationUrl: 
@@ -3307,7 +3345,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: The Unity Analytics package automatically collects core events and
     user properties when someone uses your game or application, and enables you to
     track specific in-game actions your user performs by defining custom events.
@@ -3333,10 +3371,12 @@ m_ResolvedPackages:
     - 4.0.1
     - 4.1.0
     - 4.2.0
+    - 4.3.0
     compatible:
     - 4.0.1
     - 4.1.0
     - 4.2.0
+    - 4.3.0
     verified: 4.0.1
   dependencies:
   - name: com.unity.ugui
@@ -3366,7 +3406,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637889192380000000
   documentationUrl: 
