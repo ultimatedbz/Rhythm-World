@@ -115,8 +115,13 @@ public class RingParent : MonoBehaviour {
 
     public void CheckForCompleteRing()
     {
+        sequenceController.indicatorCircle.GetComponent<SpriteRenderer>().color = Color.green;
+
         //Debug.Log("Checking for completion");
-        isDone = true;
+        //isDone = true;
+
+        // set to false for now to have continuous loop
+        isDone = false;
         for (int i=0; i<circleScripts.Length; i++)
         {
             //Debug.Log(i.ToString());

@@ -40,6 +40,7 @@ public class Conductor : MonoBehaviour {
     public Text loopText;
     public TextMeshPro announcementText;
     public Animator announcementAnimator;
+    public GameObject indicatorCircle;
 
     //static note information
     public float timeSig;

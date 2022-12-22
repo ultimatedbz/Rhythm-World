@@ -20,7 +20,7 @@ public class SequenceController : MonoBehaviour {
 
     [Header("Line and UI")]
     public Animator lineAnimator;
-
+    public GameObject indicatorCircle;
 
     private void Awake()
     {
@@ -105,11 +105,14 @@ public class SequenceController : MonoBehaviour {
         {
             ringParents[index].ResetCircles();
         }
+
+        Debug.Log("Missed");
+        indicatorCircle.GetComponent<SpriteRenderer>().color = Color.red;
     }
 
     public void CompleteRing()
     {
-        //Debug.Log("checking for full completion");
+        Debug.Log("checking for full completion");
         bool ringDone = true;
         foreach (int index in activeRings)
         {
