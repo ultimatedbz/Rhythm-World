@@ -1,2 +1,5 @@
 Builds/
 Library/il2cpp_cache
+Library/
+Temp/
+Logs/

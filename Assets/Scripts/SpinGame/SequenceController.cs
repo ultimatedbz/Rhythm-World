@@ -116,6 +116,9 @@ public class SequenceController : MonoBehaviour {
             if (!ringParents[index].isDone)
                 ringDone = false;
         }
+
+        return;
+
         if (ringDone)
         {
             //Debug.Log("Ring set complete.");
